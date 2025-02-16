@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/assets/css/forms.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="images/logo.svg" alt="logo">
+        <nav class="navLinks">
+            <ul>
+                <li><p>Only one click away from your Spark!<p></li>
+            </ul>
+        </nav>
+        <a href="#"><button>Register now</button></a>
+    </header>
+    <div class="container">
+        <div class="form">
+            <div class="wrapperLogin">
+                <h1>WELCOME!</h1>
+                <form method="post">
+                    <div class="input-box">
+                        <input type="email" placeholder="Email" name="email"><i class='bx bxs-envelope'></i>
+                        <p id="emailError"></p>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" name="password"><i class='bx bxs-lock-alt'></i>
+                        <p id="$passError;"></p>
+                    </div>
+                    <div class="remember-forgot">
+                        <label>
+                            <input type="checkbox">Remember Me
+                        </label> 
+                        <a href="">Forgot Password?</a>
+                    </div>
+                    <button class="bttn" type="submit" name="login">Login</button>
+                    <div class="register-link">
+                        <p>Do not have an account? <a href="#">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
