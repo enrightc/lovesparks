@@ -1,17 +1,23 @@
-# The Love Sparks
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)
+![HTML](https://img.shields.io/badge/HTML-5-orange.svg)
+![Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717.svg)
 
-# Ignite - Highlighting how great matches create sparks
+# The Love Sparks
+![THE LOVE SPARKS](https://img.shields.io/badge/THE_LOVE_SPARKS-Passion_Red?style=for-the-badge)
+![Ignite](https://img.shields.io/badge/Ignite-Great_Matches_Fuel_Sparks-orange?style=for-the-badge)
+
+
 
 ## ![Overview](https://img.shields.io/badge/Overview-Discovery-orange?style=for-the-badge)
 
-**Ingnite** is a dating app designed for users who value personality over superficial swiping. Instead of seeing a full profile immediately, users discover potential matches through a step-by-step reveal of key personality traits, ensuring compatibility is built on genuine interest.
+**![Ignite APP](https://img.shields.io/badge/Ignite_APP-Love_in_Action-FF69B4?style=for-the-badge)** is a dating app designed for users who value personality over superficial swiping. Instead of seeing a full profile immediately, users discover potential matches through a step-by-step reveal of key personality traits, ensuring compatibility is built on genuine interest.
 
 ## ![AIM](https://img.shields.io/badge/AIM-meaningfulCONNECTIONS-blue?style=for-the-badge)
+- To revolutionise online dating by prioritising meaningful connections over superficial swiping.
+- By using progressive personality/like matching system the app encourages users to engage with potential partners based on compatibility rather than appearance alone.
 
-To revolutionise online dating by prioritising meaningful connections over superficial swiping.
-By using progressive personality/like matching system the app encourages users to engage with potential partners based on compatibility rather than appearance alone.
-
-## 🔥 How It Works
+![How it Works](https://img.shields.io/badge/How_it_Works-Step_by_Step-blue?style=for-the-badge)
 
 ### 📝 Step 1: Personalized Questionnaire
 
@@ -34,9 +40,9 @@ First up, users fill out a **quick questionnaire** to highlight their personalit
 
 The whole idea is to **put personality first** and make connections that actually mean something. No snap judgments—just a bit of curiosity and a fun way to discover people who genuinely click.
 
-📢 **Announcement**
+![Announcement](https://img.shields.io/badge/Announcement-Exciting_Updates-purple?style=for-the-badge)
 
-## 📢 Pivot & Final Implementation
+![Pivot & Final Implementation](https://img.shields.io/badge/Pivot_&_Final_Implementation-Refined_Version-blueviolet?style=for-the-badge)
 
 We originally planned to build this as a full-stack application using Django for the backend. However, due to time constraints and challenges with implementation, we decided to pivot and focus on a front-end prototype to effectively demonstrate our concept.
 
@@ -44,7 +50,7 @@ Rather than give up, we wanted to create something to showcase —we owed it to 
 
 Even this pivot was **a challenge in itself**, requiring all of us to **pull together, adapt, and contribute** to make it happen. Everyone played their part, stepping up to ensure we had something solid to present. It’s been a true team effort, and we’re proud of what we’ve achieved! 💪🚀
 
-## 🚀 What We Built
+![What we built](https://img.shields.io/badge/What_We_Built-Project_Overview-green?style=for-the-badge)
 
 Instead of a fully functional application, we have created an interactive **HTML, CSS, and JavaScript prototype** that simulates the intended user experience. This includes:
 
@@ -56,13 +62,20 @@ Instead of a fully functional application, we have created an interactive **HTML
 
 While there is no backend or database, **JavaScript** is used to create a dynamic experience that showcases the intended user journey. This allows us to effectively present our vision despite the technical constraints.
 
-## 🎓 Lessons Learned
+[![Home Page](https://img.shields.io/badge/Home_Page-Overview-blue?style=for-the-badge)](your-link-here)
+[![Profile Page](https://img.shields.io/badge/Profile_Page-User_Details-green?style=for-the-badge)](your-link-here)
+[![Find a Match Page](https://img.shields.io/badge/Find_a_Match-Discover_Matches-orange?style=for-the-badge)](your-link-here)
+[![Login Page](https://img.shields.io/badge/Login_Page-User_Authentication-purple?style=for-the-badge)](your-link-here)
+[![Register Page](https://img.shields.io/badge/Register_Page-Sign_Up-red?style=for-the-badge)](your-link-here)
+
+
+![Lessons Learned](https://img.shields.io/badge/Lessons_Learned-Key_Takeaways-yellow?style=for-the-badge)
 
 - **Rapid prototyping** and adaptability are crucial in hackathon environments
 - **Breaking down features** into smaller, manageable components helps maintain momentum
 - **A front-end simulation** can still effectively communicate an idea without a full backend implementation
 
-## 🔮 Future Plans
+![Future Plans](https://img.shields.io/badge/Future_Plans-What’s_Next-00CED1?style=for-the-badge)
 
 If we had more time, we would:
 
@@ -237,9 +250,30 @@ We’re proud of what we’ve achieved in the time we had and excited to share o
     - **Delete user button** – Removes an account from the system.
     - **Automated ban or suspension?** (TBD)
 
+![To RUN APP](https://img.shields.io/badge/To_RUN_APP-Setup_Guide-brightgreen?style=for-the-badge)
+- Log in using your github account,
+     * https://github.com/enrightc/lovesparks.git
+- Fork your own copy of the respository (on the righthandside of the page)
+- click the down arrow and then  + "Create a new fork"
+- Now you have your own copy of the APP
+- On the righthandside is a big blue button with " <> Code click on here to get a HHTPS which you can run in vs-code.
+
+- To run a frontend (HTML, CSS, Javascript only) application in the terminal, type: 
+
+    `python3 -m http.server`
+
 ## ![Wireframes](https://img.shields.io/badge/Wireframes-View_Now-9cf?style=for-the-badge)
 
 <img src="docs/readme_images/homepage.png" alt="Home Page" width="500">
+
+![Favicon](https://img.shields.io/badge/Favicon-Custom_Icon-blue?style=for-the-badge)
+
+![Favicon](assets/favicon/android-chrome-192x192.png)
+
+
+![Images](https://img.shields.io/badge/Images-Visual_Design-purple?style=for-the-badge)
+
+![Font](https://img.shields.io/badge/Font-Typography_Style-orange?style=for-the-badge)
 
 ## ![Technologies](https://img.shields.io/badge/Technologies-Stack-ff9800?style=for-the-badge)
 
@@ -254,3 +288,20 @@ We’re proud of what we’ve achieved in the time we had and excited to share o
 ### Unsolved Bugs ![Alive Bugs](https://img.shields.io/badge/Alive%20Bugs-❌-red?style=for-the-badge&logo=bugatti)
 
 ## Future Improvements ![Future Improvements](https://img.shields.io/badge/✈️-Future%20Improvements-blue?style=for-the-badge)
+
+
+## [![Meet the Team](https://img.shields.io/static/v1?label=Meet_the_Team&message=Know_Us&color=0078D4&style=flat-square)](https://yourlink.com)
+
+[![GitHub](https://img.shields.io/badge/GitHub-enrightc-181717?style=for-the-badge&logo=github)](https://github.com/enrightc)[![Charlie Enright's LinkedIn](https://img.shields.io/badge/LinkedIn-Charlie_Enright-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/charlie-enright-54443a46/)
+
+[![Kakilian's GitHub](https://img.shields.io/badge/GitHub-Kakilian-181717?style=for-the-badge&logo=github)](https://github.com/kakilian)[![Katarina Kilian's LinkedIn](https://img.shields.io/badge/LinkedIn-Katarina_Kilian-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/katarina-kilian-645242313/)
+
+[![DavidRC-projects' GitHub](https://img.shields.io/badge/GitHub-DavidRC--projects-181717?style=for-the-badge&logo=github)](https://github.com/DavidRC-projects)[![David Carr's LinkedIn](https://img.shields.io/badge/LinkedIn-David_Carr-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-carr-9a71a1312/)
+
+[![Iliana Marquez's GitHub](https://img.shields.io/badge/GitHub-Iliana--Marquez-181717?style=for-the-badge&logo=github)](https://github.com/iliana-marquez)[![Iliana Marquez's LinkedIn](https://img.shields.io/badge/LinkedIn-Iliana_Marquez-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iliana-marquez-3b6795339/)
+
+[![Mildred-prog's GitHub](https://img.shields.io/badge/GitHub-Mildred--prog-181717?style=for-the-badge&logo=github)](https://github.com/mildred-prog)[![Mildred Aneke's LinkedIn](https://img.shields.io/badge/LinkedIn-Mildred_Aneke-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mildred-aneke-3920241b8/)
+
+[![Elvisthegreat's GitHub](https://img.shields.io/badge/GitHub-Elvisthegreat-181717?style=for-the-badge&logo=github)](https://github.com/Elvisthegreat)[![Elvis Blessing Eunice's LinkedIn](https://img.shields.io/badge/LinkedIn-Elvis_Blessing-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elvisblessingeunice-software-dev/)
+
+[![Krishna0890227's GitHub](https://img.shields.io/badge/GitHub-Krishna0890227-181717?style=for-the-badge&logo=github)](https://github.com/krishna0890227)
