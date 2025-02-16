@@ -71,6 +71,7 @@ While there is no backend or database, **JavaScript** is used to create a dynami
 ![Login Page](https://img.shields.io/badge/Login_Page-User_Authentication-purple?style=for-the-badge)
 ![Register Page](https://img.shields.io/badge/Register_Page-Sign_Up-red?style=for-the-badge)
 ![Login Page & Register](assets/testing/register-page.png)
+[![404 Page](assets/images/404-img.png)](assets/images/404-img.png)
 
 
 ![Lessons Learned](https://img.shields.io/badge/Lessons_Learned-Key_Takeaways-yellow?style=for-the-badge)
@@ -278,6 +279,9 @@ We’re proud of what we’ve achieved in the time we had and excited to share o
 ![Images](https://img.shields.io/badge/Images-Visual_Design-purple?style=for-the-badge)
 
 ![Font](https://img.shields.io/badge/Font-Typography_Style-orange?style=for-the-badge)
+![Montserrat](https://img.shields.io/badge/Font-Montserrat-0073e6?style=for-the-badge&logo=GoogleFonts&logoColor=white)
+![Playfair Display](https://img.shields.io/badge/Font-Playfair%20Display-e6007e?style=for-the-badge&logo=GoogleFonts&logoColor=white)
+
 
 ## ![Technologies](https://img.shields.io/badge/Technologies-Stack-ff9800?style=for-the-badge)
 
