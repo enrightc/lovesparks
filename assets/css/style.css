@@ -1,0 +1,262 @@
+ /* Google Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ /* Removes all margins & Padding */ 
+ * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+ 
+ :root {
+   /* variables for background styles */
+   --clr--primary-bg: #b80d16;
+   --clr--secondary-bg: #810a0c;
+   --clr-accent-colour: #ea1823;
+   --clr-bg-colour-dark: #000000;
+   --clar-bg-colour-light: #ffffa;
+ 
+   /* variables for text styles */
+   --text-colour-dark: #000000;
+   --text-colour-light: #ffffff;
+   --text-title: "Playfair Display", sans-serif;
+   --text-paragraph: "Montserrat", sans-serif;
+ }
+ 
+ /* General Sytles for Fonts*/
+ h1 {
+   font-size: 3.5rem;
+   font-family: var(--text-title);
+ }
+ 
+ h2 {
+   font-size: 2.5rem;
+   font-family: var(--text-paragraph);
+ }
+ 
+ p {
+   font-size: 1.5rem;
+ }
+ 
+ /* Homepage */
+ 
+ /* General styles for all hero sections */
+ .hero-img {
+   width: 100%;
+   height: 30vh;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+ }
+ 
+ /* Button styles */
+ 
+ .buttonfont {
+   font-family: var(--text-paragraph);
+   font-size: 0.5rem;
+ }
+ 
+ /* Make images fill their div */
+ .hero-img img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     position: absolute;
+     top: 0;
+     left: 0;
+   }
+ 
+ /* Heading */
+ .text-overlay {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: var(--text-colour-light);
+ }
+ 
+ #h1home {
+   font-family: var(--text-title);
+   font-size: 48px;
+   font-weight: 500;
+ }
+ 
+ #phome  {
+   font-family: var(--text-paragraph);
+   font-size: 16px;
+ }
+ 
+ /* About Page */
+ #about {
+   color: var(--text-colour-light);
+   font-family: var(--text-paragraph);
+ }
+ 
+ #about h1, 
+ #about h2 {
+   font-family: var(--text-title) !important;
+ }
+ 
+ #about-header, #about-cta {
+   background-color: #0a0b0d;
+   color: var(--text-colour-light);
+ }
+ 
+ #about-header h1 {
+   color: var(--clr-accent-colour);
+ }
+ 
+ #about #header-image{
+   background: url(/static/images/ingite-spark.png) no-repeat center;
+   height: 350px;
+ }
+ 
+ #about-main-1 {
+   background-color: var(--clr-accent-colour);
+   color: var(--text-colour-light);
+ }
+ 
+ #about-main-2 {
+   background-color: var(--clr-bg-colour-dark);
+   color: var(--text-colour-light);
+ }
+ 
+ #about-main-2 i,
+ #about-main-2 h1 {
+   color: var(--clr-accent-colour);
+ }
+ 
+ #about-cta {
+   background-color: var(--text-colour-light);
+   color: var(--clr-bg-colour-dark);
+ }
+ 
+ /* Match Page (find_a_match) */
+ #match-page {
+   background-color: var(--clr-accent-colour);
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+ }
+ 
+ /* Category Container (Fixed Height) */
+ #match-page .stack {
+   position: relative;
+   max-width: 100%;
+   min-height: 50vh;
+   border: #ffffff solid 1px;
+ }
+ 
+ #match-page .category {
+   position: absolute;
+   transform: translateY(1%) scale(1) rotate(-2deg);
+   border-radius: 10px;
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.594);
+   transition: all 0.4s ease-in-out;
+ }
+ 
+ #match-page .category img {
+   max-width: 100%;
+   border-radius: inherit;
+   max-height: 100%;
+   object-fit: cover; /* Ensures image fills the space */
+   border-radius: inherit;
+ }
+ 
+ /* Initially Hidden Cards */
+ #match-page .hidden {
+   z-index: 0;
+ }
+ 
+ /* When revealed, move up */
+ #match-page .revealed {
+   transform: translateY(1%) scale(1) rotate(2.5deg);
+   z-index: 2 !important;
+ }
+ 
+ /* Adjust Stacking Effect */
+ #match-page .stacked {
+   transform: translateY(2%) rotate(-4deg);
+   z-index: 3 !important;
+ } 
+ 
+ /* Ensure Top Card is Above */
+ #match-page .revealed:not(:first-child) {
+   transform: translateY(3%) scale(1) rotate(-1deg);
+   z-index: 4 !important;
+ } 
+ 
+ #match-page .action-buttons button {
+   z-index: 5;
+   font-size: 1rem;
+ }
+ 
+ /* Media Queries Match Page */
+ @media screen and (min-width: 576px) {
+   #match-page .stack {
+     max-width: 90%;
+     height: 70vh;
+   }
+ }
+ 
+ @media screen and (min-width: 768px) {
+   #match-page .stack {
+     max-width: 80%;
+     height: 75vh;
+   }
+ }
+ 
+ @media screen and (min-width: 992px) {
+   #match-page .stack {
+     max-width: 60%;
+     height: vh;
+   }
+ }
+ 
+ @media screen and (min-width: 1200px) {
+   #match-page .stack {
+     max-width: 50%;
+     /* height: 70vh; */
+   }
+ }
+ 
+ /* Footer */
+ 
+ #social-links {
+   display: flex;
+   list-style-type: none;
+   background-color: var(--clar-bg-colour-light);
+   justify-content: center;
+   }
+ 
+   #social-links i {
+   color: var(--text-colour-dark);
+   margin-right: 10px;
+   margin-top: 20px;
+   font-size: 2.5rem;
+ }
+ 
+ /* Media query: tablets and larger (768px and up) */
+ @media screen and (min-width: 768px) {
+   
+   /* Header */
+   #h1home {
+     font-size: 96px;
+     font-weight: 500;
+   }
+ 
+   #phome {
+     font-family: var(--text-paragraph);
+     font-size: 24px;
+   }
+ 
+   .buttonfont {
+     font-size: 1rem;
+   }
+ }
