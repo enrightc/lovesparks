@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="assets/css/forms.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <div class="container">
+        <div class="form">
+            <div class="wrapperRegister">
+                <h1>Shine & Ignite!</h1>
+                <form method="post" enctype="multipart/form-data">
+                    <div class="input-grid">
+                        <div class="input-box">
+                            <input type="text" placeholder="* Username" name="username"><i class='bx bxs-user'></i>
+                            <p class="error"></p>
+                        </div>
+                        <div class="input-box">
+                            <select name="gender">
+                                <option value="null">Select gender</option>
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                                <option value="male">Non-Bynary</option>
+                                <option value="male">LGTB</option>
+                            </select>
+                            <i class='bx bxs-chevron-down'></i>
+                            <p class="error"></p>
+                        </div>
+                        <div class="input-box-date">
+                            <label for="date" class="custom-date">* Date of Birth: </label>
+                            <input id="date" type="date" name="date_of_birth">
+                            <p class="error"></p>
+                        </div>
+                        <div class="input-box">
+                            <select name="looking-for">
+                                <option value="null">Looking for:</option>
+                                <option value="female">Love</option>
+                                <option value="male">Fun</option>
+                                <option value="male">Frienship</option>
+                                <option value="male">Networking</option>
+                            </select>
+                            <i class='bx bxs-chevron-down'></i>
+                            <p class="error"></p>
+                        </div>                   
+                        <div class="input-box">
+                            <select name="time-preference">
+                                <option value="null">Time Preference (How You Spend Your Free Time)</option>
+                                <option value="golden-hour"><b>Golden Hour Seeker - </b>Sunrises, sunsets, and making the most of every moment.</option>
+                                <option value="night"><b>Night Wanderer - </b>Midnight convos, city lights, and spontaneous late-night plans.
+                                </option>
+                                <option value="weekend"><b>Weekend Explorer - </b>Road trips, brunches, and discovering new spots.
+                                </option>
+                            </select>
+                            <i class='bx bxs-chevron-down'></i>
+                            <p class="error"></p>
+                        </div>                   
+                        <div class="input-box">
+                            <select name="time-preference">
+                                <option value="null">Friends Description (Your Social Energy)</option>
+                                <option value="the-connector"><b>The Connector -</b> Always bringing people together, the glue of the group.</option>
+                                <option value="chill-companion"><b>The Chill Companion -</b> Movie nights, deep convos, and good vibes only.
+                                </option>
+                                <option value="wild-spark"><b>The Wild Spark - </b>Life of the party. Last-minute plans? Count me in!
+                                </option>
+                            </select>
+                            <i class='bx bxs-chevron-down'></i>
+                            <p class="error"></p>
+                        </div>                   
+                        <div class="input-box">
+                            <select name="time-preference">
+                                <option value="null">Relationship Excites (What Draws You In?)</option>
+                                <option value="electric-chemistry"><b>Electric Chemistry -</b> Always bringing people together, the glue of the group.</option>
+                                <option value="deep-connection"><b>Deep Connection - </b>Vulnerability, trust, and real conversations.
+                                </option>
+                                <option value="playful-fun"><b>Playful & Fun  - </b>Flirty banter, inside jokes, and endless laughter.
+                                </option>
+                            </select>
+                            <i class='bx bxs-chevron-down'></i>
+                            <p class="error"></p>
+                        </div>                   
+                        <div class="input-box">
+                            <input type="email" placeholder="* Email" name="email"><i class='bx bxs-envelope'></i>
+                            <p class="error"></p>
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="* Password" name="password"><i class='bx bxs-lock-alt'></i>
+                            <p class="error"></p>
+                        </div>
+                        <div class="input-box">
+                            <label for="file-upload" class="input custom-file-upload ">Upload profile picture <i class='bx bx-image-add'></i></label>
+                            <input id="file-upload" type="file" name="picture">
+                        </div>
+                    </div>
+                    <div class="bttn-section">
+                        <button class="bttn" type="submit" name="register"><a href="show_profile.html">Register</a></button>
+                    </div>
+                    <div class="register-link">
+                        <p>Already registered? <a href="login.html">Sign in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- footer -->
+
+    <!-- <script>
+        document.getElementById('file-upload').addEventListener('change', function (){
+           let fileName = this.files[0].name; //get the name of the selcted file
+           let label = document.querySelector('label[for="file-upload"]'); // Get the label associated with the file input
+           label.innerHTML = fileName + '<i class="bx bx-image-add"></i>'; // Update the label text with the file name and icon
+            label.classList.add('file-chosen'); // Add the class to change the text color to white
+        }); 
+        // document.getElementById('date').addEventListener('change', funtion(){
+        //     let uDate = this.date
+
+        // });
+        //     console.log (fileName);
+        // });
+    </script> -->
+</body>
+
+</html>

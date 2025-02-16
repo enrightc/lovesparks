@@ -1,0 +1,414 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Removes all margins & Padding */ 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    /* variables for background styles */
+    --clr--primary-bg: #b80d16;
+    --clr--secondary-bg: #810a0c;
+    --clr-accent-colour: #ea1823;
+    --clr-bg-colour-dark: #000000;
+    --clar-bg-colour-light: #ffffa;
+    
+    /* variables for text styles */
+    --text-colour-dark: #000000;
+    --text-colour-light: #ffffff;
+    --text-title: "Playfair Display", sans-serif;
+    --text-paragraph: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--text-colour-dark);
+}
+/* General Sytles for Fonts*/
+h1 {
+  font-size: 3.5rem;
+  font-family: var(--text-title);
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: var(--text-paragraph);
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* Forms */
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
+    }
+    
+    .wrapperLogin{
+        width: 450px;
+        background: rgba(255, 255, 255, 0.1); 
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(15px) ;
+        color: white;
+        border-radius: 15px;
+        padding: 30px 40px;
+        margin: 2rem;
+        height: auto;
+    }
+    
+    .wrapperLogin h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .wrapperRegister {
+        width: 85%; 
+        background: rgba(255, 255, 255, 0.1); 
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(15px);
+        color: white;
+        border-radius: 15px;
+        padding: 30px 40px;
+        margin: 2rem;
+        height: auto;
+    
+        
+    }
+    
+    .wrapperRegister h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px; 
+        margin-top: 0;
+    }
+    
+    .wrapperEdit {
+        width: 85%; 
+        background: rgba(255, 255, 255, 0.1); 
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(15px);
+        color: white;
+        border-radius: 15px;
+        padding: 30px 30px;
+        height: auto;
+        justify-content: center;
+        
+        .bttn-section{
+            margin-top: 1rem;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            width: fit-content;
+    
+            button{
+                background-color: #ff5a5a;
+                width: fit-content;
+            }
+        } 
+    }
+    
+    .input-box{
+        width: 100%;
+        height: 4rem;
+        margin-top: 1rem;
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        text-align: start;
+    }
+    
+    .wrapperLogin .input-box{
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+        position: relative;
+    }
+    
+    .wrapperRegister .input-box{
+        width: 100%;
+        height: 50px;
+        margin: 15px 0;
+        position: relative;
+    }
+    
+    .searchWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: .5rem 1rem .5rem 1rem;
+        background-color: #24252A;
+        
+    }
+    
+    .searchWrapper form {
+        width: 100%;
+    }
+    
+    .searchWrapper .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        width: 100%;
+    
+        button {
+            font-size: 12px;
+            height: 2.3rem;
+            width: auto;
+        }
+    }
+    
+    .search-input {
+        display: flex;
+        align-items: center;
+        justify-content: spacecenter-between;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 40px;
+        padding: 0rem 0rem 0rem 1.5rem;
+        width: 100%;    
+        height: 2.3rem;
+    }
+    
+    .search-input:hover{
+        width: 100%;
+        border: 2px solid rgba(255, 255, 255, 0.796);
+    }
+    
+    .input-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 0 0.5rem ; 
+    }
+    
+    .input-box-date {
+        display: flex;
+        align-items: center;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 40px;
+        padding: 10px;
+        background: transparent;
+        height: 50px;
+        margin-top: 1rem;
+    }
+    
+    .custom-date {
+        color: rgba(255, 255, 255, 0.57);
+        font-size: 16px;
+        margin-right: 10px;
+        white-space: nowrap;
+    }
+    
+    .input-box-date input[type="date"] {
+        appearance: none; /* Remove default styles */
+        -webkit-appearance: none; /* Remove default styles in Safari */
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 16px;
+        outline: none; /* Remove outline */
+        padding: 5px;
+        width: 100%; /* Adjust as necessary */
+        cursor: pointer;
+    }
+    
+    .input-box textarea{
+        appearance: none; /* Remove default styles */
+        -webkit-appearance: none; /* Remove default styles in Safari */
+        background: transparent;
+        color: white;
+        font-size: 16px;
+        outline: none; /* Remove outline */
+        width: 100%; /* Adjust as necessary */
+        min-height: auto;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 40px;
+        padding: 5px;
+    }
+    
+    .input-box input[type="file"] {
+        display: none;
+    }
+    
+    label.custom-file-upload {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 40px;
+        color: white;
+        font-size: 16px;
+        padding: 20px 45px 20px 20px;
+        cursor: pointer;
+    }
+    
+    label.custom-file-upload.file-chosen {
+        color: white;
+    }
+    
+    .input-box input[type="number"]::-webkit-inner-spin-button,
+    .input-box input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    
+    /* .input-box input[type="number"] {
+         -moz-appearance: textfield; 
+    } */
+    
+    .search-input input[type="text"] {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 16px;
+        flex: 1;
+    }
+    
+    .input-box input{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 40px;
+        color: white;
+        font-size: 16px;
+        padding: 20px 45px 20px 20px;
+        
+    }
+    
+    .input-box select{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 40px;
+        color: white;
+        font-size: 16px;
+        padding-left: 20px;
+        -webkit-appearance: none; /* For Chrome, Safari, and other WebKit browsers */
+        -moz-appearance: none;    /* For Firefox */
+        appearance: none;    
+    }
+    
+    .input-box p.error{
+        color: #ff5a5a;
+        font-size: 12px;
+        text-align: start;
+        margin-left: 1rem;
+    }
+    
+    .input-box input::placeholder{
+        color: white;
+        text-align: start;
+    }
+    
+    .input-box i{
+        position: absolute;
+        right: 20px;
+        top: 30%;
+        transform: translate(-50%);
+        font-size: 20px;
+        color: white;
+    }
+    
+    .wrapperLogin .remember-forgot{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14.5px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .remember-forgot label input{
+        accent-color: white;
+        margin-right: 3px;
+    }
+    
+    .remember-forgot a:hover{
+        text-decoration: underline;
+        color: #ff5a5a;
+    }
+    
+    .wrapperLogin .bttn{
+        width: 100%;
+        height: 45px;
+    }
+    
+    .wrapperRegister .bttn-section{
+    
+        margin-top: 2rem;
+    
+    }
+    
+    .wrapperRegister .bttn{
+        width: 100%;
+        height: 45px;
+    }
+    .wrapperLogin .register-link{
+        font-size: 14.5px;
+        text-align: center;
+        margin: 20px 0 15px;
+    }
+    
+    .wrapperRegister .register-link{
+        font-size: 14.5px;
+        text-align: center;
+        margin: 20px 0 15px;
+    }
+    
+    .register-link p a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .register-link p a:hover{
+        text-decoration: underline;
+        color: #ff5a5a;
+    }
+    
+    @media (max-width: 768px) {
+        .input-grid {
+            grid-template-columns: 1fr; 
+            gap: 0.5rem 0; 
+        }
+    
+        .wrapperRegister h1 {
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 20px; 
+            margin-top: 0;
+        }
+    
+    
+    }
+    
+    @media (min-width: 769px) and (max-width: 1200px) {
+        .input-grid {
+            grid-template-columns: 1fr 1fr; 
+            gap: 0 0.5rem; 
+        }
+    
+        
+    }
+    
+    @media (min-width: 1201px) {
+        .input-grid {
+            grid-template-columns: 1fr 1fr; 
+            gap: 0 0.5rem; 
+        }
+    
+        
+    }
