@@ -62,11 +62,15 @@ Instead of a fully functional application, we have created an interactive **HTML
 
 While there is no backend or database, **JavaScript** is used to create a dynamic experience that showcases the intended user journey. This allows us to effectively present our vision despite the technical constraints.
 
-[![Home Page](https://img.shields.io/badge/Home_Page-Overview-blue?style=for-the-badge)](your-link-here)
-[![Profile Page](https://img.shields.io/badge/Profile_Page-User_Details-green?style=for-the-badge)](your-link-here)
-[![Find a Match Page](https://img.shields.io/badge/Find_a_Match-Discover_Matches-orange?style=for-the-badge)](your-link-here)
-[![Login Page](https://img.shields.io/badge/Login_Page-User_Authentication-purple?style=for-the-badge)](your-link-here)
-[![Register Page](https://img.shields.io/badge/Register_Page-Sign_Up-red?style=for-the-badge)](your-link-here)
+![Home Page](https://img.shields.io/badge/Home_Page-Overview-blue?style=for-the-badge)
+![HOMEPAGE](assets/testing/home-page.png)
+![Profile Page](https://img.shields.io/badge/Profile_Page-User_Details-green?style=for-the-badge)
+![Profile Page](assets/testing/profile-page.png)
+![Find a Match Page](https://img.shields.io/badge/Find_a_Match-Discover_Matches-orange?style=for-the-badge)
+![Find a Match Page](assets/testing/match-page.png)
+![Login Page](https://img.shields.io/badge/Login_Page-User_Authentication-purple?style=for-the-badge)
+![Register Page](https://img.shields.io/badge/Register_Page-Sign_Up-red?style=for-the-badge)
+![Login Page & Register](assets/testing/register-page.png)
 
 
 ![Lessons Learned](https://img.shields.io/badge/Lessons_Learned-Key_Takeaways-yellow?style=for-the-badge)
@@ -282,6 +286,7 @@ We’re proud of what we’ve achieved in the time we had and excited to share o
 ![JavaScript](https://img.shields.io/badge/Frontend-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## Bugs ![Bugs](https://img.shields.io/badge/Bugs-Squashed-brightgreen?style=for-the-badge&logo=bug&logoColor=white)
+![Lighthouse](assets/testing/lighthouse-testing.png)
 
 ### Solved Bugs ![Killed Bugs](https://img.shields.io/badge/Killed%20Bugs-✔️-brightgreen?style=for-the-badge&logo=bugatti)
 
