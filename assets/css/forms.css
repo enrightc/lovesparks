@@ -24,8 +24,9 @@
 }
 
 body {
-    background-color: var(--text-colour-dark);
+    background-color: #0a0b0d;
 }
+
 /* General Sytles for Fonts*/
 h1 {
   font-size: 3.5rem;
@@ -41,11 +42,21 @@ p {
   font-size: 1.5rem;
 }
 
-.container {
-    background: url("../images/ingite-spark.png") center;
-    height: auto;
-}
 
+  /* Nav bar styles */
+  .navbar, .dropdown-menu {
+    background-color: var(--clr-accent-colour) !important;
+  }
+   
+  .navbar-toogler-icon {
+    background-color: var(--clr-bg-colour-dark) !important;
+  }
+  
+  .navbar-toggler {
+    border-color: var(--clr-bg-colour-dark) !important;
+    border-width: 2px;
+  }
+  
 /* Forms */
 
 .form{
@@ -53,7 +64,9 @@ p {
     justify-content: center;
     align-items: center;
     height: auto;
-    
+    background: url("../images/ingite-spark.png") center;
+    min-height: 80vh;
+    width: 100%;
     }
 
     
@@ -412,6 +425,25 @@ p {
         text-decoration: underline;
         color: var(--clr-accent-colour);
     }
+
+    footer {
+        background-color: #0a0b0d;
+        color: var(--text-colour-light);
+    }
+
+    footer ul {
+        display: flex;
+        list-style-type: none;
+        background-color: var(--clar-bg-colour-light);
+        justify-content: center;
+    }
+      
+     footer * i {
+        color: var(--text-colour-light) !important;
+        margin-right: 10px;
+        margin-top: 20px;
+        font-size: 2.5rem;
+      }
     
     @media (max-width: 768px) {
         .input-grid {
