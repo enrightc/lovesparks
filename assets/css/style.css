@@ -37,7 +37,20 @@
  p {
    font-size: 1.5rem;
  }
+
+  /* Nav bar styles */
+  .navbar, .dropdown-menu {
+  background-color: var(--clr-accent-colour) !important;
+}
  
+.navbar-toogler-icon {
+  background-color: var(--clr-bg-colour-dark) !important;
+}
+
+.navbar-toggler {
+  border-color: var(--clr-bg-colour-dark) !important;
+  border-width: 2px;
+}
  /* Homepage */
  
  /* General styles for all hero sections */
