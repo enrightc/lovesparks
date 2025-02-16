@@ -35,20 +35,35 @@
           </button>
   
           <!-- Navbar Links -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Matches</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Messages</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Events</a>
-                  </li>
+          <div class="collapse navbar-collapse w-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto d-flex flex-column flex-lg-row align-items-end text-end">
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" href="find_a_match.html">Matches</a>
+  
+                    <!-- Dropdown Menu for Profile -->
+                <li class="nav-item dropdown text-white">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Profile
+                  </a>
+                  <!-- Dropdown Menu -->
+                  <ul class="dropdown-menu dropdown-menu-end" style="min-width: 200px;">
+                      <li><a class="dropdown-item text-white" href="show_profile.html">My Profile</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Logout</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+  </div>
+  </nav>
   
                   <!-- Dropdown Menu for Profile -->
                   <li class="nav-item dropdown">
@@ -56,7 +71,7 @@
                           Profile
                       </a>
                       <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">My Profile</a></li>
+                          <li><a class="dropdown-item" href="show_profile.html">My Profile</a></li>
                           <li><a class="dropdown-item" href="#">Settings</a></li>
                           <li><a class="dropdown-item" href="#">Logout</a></li>
                       </ul>
