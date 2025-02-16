@@ -268,6 +268,9 @@ We’re proud of what we’ve achieved in the time we had and excited to share o
 
 ![Favicon](https://img.shields.io/badge/Favicon-Custom_Icon-blue?style=for-the-badge)
 
+![Favicon](assets/favicon/android-chrome-192x192.png)
+
+
 ![Images](https://img.shields.io/badge/Images-Visual_Design-purple?style=for-the-badge)
 
 ![Font](https://img.shields.io/badge/Font-Typography_Style-orange?style=for-the-badge)
