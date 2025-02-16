@@ -23,12 +23,11 @@
 </head>
 <body>
   <!-- Header -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg text-white">
+    <div class="container d-flex justify-content-between">
         <!-- Logo -->
-        <div class="container-fluid d-flex justify-content-between">
           <div class="mx-auto order-0">
-        <a class="navbar-brand" href="index.html">Ignite 🔥</a>
+        <a class="navbar-brand text-white" href="index.html"><h1>Ignite 🔥</h1></a>
         </div>
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
@@ -37,35 +36,35 @@
         </button>
 
         <!-- Navbar Links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse w-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto d-flex flex-column flex-lg-row align-items-end text-end">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link text-white" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link text-white" href="#">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Matches</a>
+                    <a class="nav-link active text-white" href="#">Matches</a>
 
-                <!-- Dropdown Menu for Profile -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-                        Profile
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">My Profile</a></li>
-                        <li><a class="dropdown-item" href="#">Settings</a></li>
-                        <li><a class="dropdown-item" href="#">Logout</a></li>
-                    </ul>
-                </li>
-            </ul>
-
-        </div>
-    </div>
+                    <!-- Dropdown Menu for Profile -->
+                <li class="nav-item dropdown text-white">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Profile
+                  </a>
+                  <!-- Dropdown Menu -->
+                  <ul class="dropdown-menu dropdown-menu-end" style="min-width: 200px;">
+                      <li><a class="dropdown-item text-white" href="#">My Profile</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Settings</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Logout</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+  </div>
 </nav>
 
 </header>
