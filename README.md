@@ -301,25 +301,25 @@ We’re proud of what we’ve achieved in the time we had and excited to share o
 
 ## ![Technologies](https://img.shields.io/badge/Technologies-Stack-ff9800?style=for-the-badge)
 
+### Languages:
 ![HTML](https://img.shields.io/badge/Frontend-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/Frontend-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/Frontend-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 Languages:
 
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-yellow.svg">
-<img alt="HTML" src="https://img.shields.io/badge/HTML-5-orange.svg">
-<img alt="CSS" src="https://img.shields.io/badge/Frontend-CSS-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white">
-Development Tools:
+### Development Tools:
 
 <img alt="Gitpod" src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod">
 <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-Editor-007ACC?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=white">
 <img alt="GitHub" src="https://img.shields.io/badge/GitHub-Repository-181717.svg">
 <img alt=".gitattributes" src="https://img.shields.io/badge/.gitattributes-Repository_Config-blue?style=for-the-badge&amp;logo=git">
-Methodologies:
+
+### Methodologies:
 
 <img alt="Agile" src="https://img.shields.io/badge/Agile-Development_Methodology-orange?style=for-the-badge&amp;logo=scrumalliance">
 <img alt="Kanban" src="https://img.shields.io/badge/Kanban-Task_Management-blue?style=for-the-badge&amp;logo=trello">
-Frontend Frameworks and Libraries:
+
+### Frontend Frameworks and Libraries:
 
 <img alt="HTML" src="https://img.shields.io/badge/Frontend-HTML-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white">
 <img alt="CSS" src="https://img.shields.io/badge/Frontend-CSS-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white">
@@ -333,6 +333,8 @@ Design and Visuals:
 <img alt="Playfair Display" src="https://img.shields.io/badge/Font-Playfair Display-e6007e?style=for-the-badge&amp;logo=GoogleFonts&amp;logoColor=white">
 
 ## Bugs ![Bugs](https://img.shields.io/badge/Bugs-Squashed-brightgreen?style=for-the-badge&logo=bug&logoColor=white)
+
+### Testing with Lighthouse
 ![Lighthouse](assets/testing/lighthouse-testing.png)
 
 ### Solved Bugs ![Killed Bugs](https://img.shields.io/badge/Killed%20Bugs-✔️-brightgreen?style=for-the-badge&logo=bugatti)
