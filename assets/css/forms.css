@@ -260,10 +260,9 @@ p {
         margin: 0;
     }
     
-    .input-box input[type="number"] {
-        -moz-appearance: textfield;
-    }
-    
+    /* .input-box input[type="number"] {
+         -moz-appearance: textfield; 
+    } */
     
     .search-input input[type="text"] {
         background: transparent;
