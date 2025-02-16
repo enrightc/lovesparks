@@ -74,6 +74,26 @@
       />
     </div>
   </main>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const validPages = [
+            "index.html", 
+            "about.html", 
+            "chatpage.html", 
+            "find_a_match.html", 
+            "login.html", 
+            "registration.html", 
+            "show_profile.html", 
+            "404.html"
+        ];
+
+        let currentPage = window.location.pathname.split('/').pop() || "index.html";
+        
+        if (!validPages.includes(currentPage)) {
+            window.location.href = "404.html";
+        }
+    });
+</script>
 </body>
 
   <!-- footer -->
