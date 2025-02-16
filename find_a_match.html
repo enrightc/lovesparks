@@ -21,141 +21,77 @@
   
       <title>Ignite</title>
 </head>
+
 <body>
-  <!-- Header -->
-  <nav class="navbar navbar-expand-lg text-white">
-    <div class="container d-flex justify-content-between">
-        <!-- Logo -->
-          <div class="mx-auto order-0">
-        <a class="navbar-brand text-white" href="index.html"><h1>Ignite 🔥</h1></a>
-        </div>
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar Links -->
-        <div class="collapse navbar-collapse w-auto" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto d-flex flex-column flex-lg-row align-items-end text-end">
-                <li class="nav-item">
-                    <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-white" href="#">Matches</a>
-
-                    <!-- Dropdown Menu for Profile -->
-                <li class="nav-item dropdown text-white">
-                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Profile
-                  </a>
-                  <!-- Dropdown Menu -->
-                  <ul class="dropdown-menu dropdown-menu-end" style="min-width: 200px;">
-                      <li><a class="dropdown-item text-white" href="#">My Profile</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Settings</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Logout</a></li>
-                  </ul>
-              </li>
-          </ul>
+<!-- Navbar Links -->
+      
+<!-- Main Section -->
+<div id="match-page" class="flex-column">
+    <div class="container-fluid g-0 stack">
+      <!-- Display for Category: Vibe? -->
+      <div class="category revealed" id="categoryOne">
+        <img
+          src="https://images.pexels.com/photos/801863/pexels-photo-801863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Print caption of the displayed photo"
+        />
       </div>
+      <!-- Display for Category: Interests? -->
+      <div class="category" id="categoryTwo">
+        <img
+          src="https://images.pexels.com/photos/673018/pexels-photo-673018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Print caption of the displayed photo"
+        />
+      </div>
+      <!-- Display for Category: Values? -->
+      <div class="category" id="categoryThree">
+        <img
+          src="https://images.pexels.com/photos/4613879/pexels-photo-4613879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Print caption of the displayed photo"
+        />
+      </div>
+    </div>
+  
+    <div class="container-fluid action-buttons text-center">
+      <button class="btn btn-dark buttonfont mx-2" id="reveal-spark">
+        Spark
+      </button>
+      <button class="btn btn-dark buttonfont mx-2" id="fire-up" disabled>
+        Fire Up!
+      </button>
+      <button class="btn btn-dark buttonfont mx-2 buttonfont" id="next-match">
+        Generate
+      </button>
+    </div>
   </div>
-</nav>
 
-</header>
-    <div id="about">
+<!-- footer -->
 
-        <!-- Header Section -->
-        <div class="container-fluid" id="about-header">
-            <div class="row">
-                <div class="col-12 col-xl-6">Find Your Spark & Ignite New Connections</div>
-                <div class="col-12 col-xl-6">Photos Collage</div>
-                <div class="col-12 col-xl-6">Express yourself, connect with others, and ignite something real.</div>
-            </div>
-        </div>
-        
-        <!-- Main Section  -->
-        <section class="container-fluid" id="about-main-1">
-            <div class="row">
-                <div class="col-12">Why Igninte?</div>
-                <div class="col-12 col-md-6 col-xl-4">Match based on spark</div>
-                <div class="col-12 col-md-6 col-xl-4">Pogressive matching</div>
-                <div class="col-12 col-md-6 col-xl-4">Inclusive and safe</div>
-            </div>
-        </section>
-        
-        <section class="container-fluid" id="about-main-2">
-            <div class="row">
-                <div class="col-12">How it works</div>
-                <div class="col-12 col-md-6 col-xl-4">Step1</div>
-                <div class="col-12 col-md-6 col-xl-4">Step2</div>
-                <div class="col-12 col-md-6 col-xl-4">Step3</div>
-            </div>
-        </section>
-        
-        <!-- CTA Section -->
-        <section class="container-fluid" id="about-cta">
-            <div class="row">
-                <div class="col-12">Ready to Ignite?</div>
-                <div class="col-12">Signup</div>
-                <div class="col-12">Text</div>
-            </div>
-        </section>
-        
-        </div>
-
-        <!-- footer section -->
-        <footer>
-            <div>
-              <ul id="social-links">
-                <li>
-                  <a
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="Visit our facebook page">
-                    <i class="fa-brands fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com"
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="Visit our linkedin page">
-                    <i class="fa-brands fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com"
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="Visit our instagram page">
-                    <i class="fa-brands fa-square-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.tiktok.com"
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="Visit our tiktok page"
-                  >
-                    <i class="fa-brands fa-tiktok"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <p class="text-center">
-              &copy; 2025 The Love Sparks Team. All rights reserved.
-            </p>
-          </footer>
+<script>
+    const categories = document.querySelectorAll('.category');
+    const revealBtn = document.getElementById('reveal-spark');
+    const fireUpBtn = document.getElementById('fire-up');
+    let revealedCount = 1; // First card is already visible
+    
+    revealBtn.addEventListener('click', () => {
+        if (revealedCount < categories.length) {
+            const currentCard = categories[revealedCount];
+            currentCard.classList.add('revealed');
+    
+            // Adjust stacking effect for remaining cards
+            for (let i = revealedCount + 1; i < categories.length; i++) {
+                categories[i].classList.add('stacked');
+            }
+    
+            revealedCount++;
+        }
+    
+        // Enable "Fire Up!" / Disable "Spark" btns when all cards are revealed
+        if (revealedCount === categories.length) {
+            fireUpBtn.removeAttribute('disabled');
+            revealBtn.setAttribute('disabled', true);
+        }
+    });
+    </script>
           
 </body>
 </html>
