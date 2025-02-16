@@ -65,7 +65,7 @@ p {
     align-items: center;
     height: auto;
     background: url("../images/ingite-spark.png") center;
-    height: auto;
+    min-height: 80vh;
     width: 100%;
     }
 
@@ -426,15 +426,20 @@ p {
         color: var(--clr-accent-colour);
     }
 
-    #social-links {
+    footer {
+        background-color: #0a0b0d;
+        color: var(--text-colour-light);
+    }
+
+    footer ul {
         display: flex;
         list-style-type: none;
-        background-color: #0a0b0d;
+        background-color: var(--clar-bg-colour-light);
         justify-content: center;
-        }
+    }
       
-        #social-links i {
-        color: var(--text-colour-dark);
+     footer * i {
+        color: var(--text-colour-light) !important;
         margin-right: 10px;
         margin-top: 20px;
         font-size: 2.5rem;
