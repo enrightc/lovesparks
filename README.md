@@ -2,6 +2,12 @@
 ![HTML](https://img.shields.io/badge/HTML-5-orange.svg)
 ![Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717.svg)
+![.gitattributes](https://img.shields.io/badge/.gitattributes-Repository_Config-blue?style=for-the-badge&logo=git)
+![Agile](https://img.shields.io/badge/Agile-Development_Methodology-orange?style=for-the-badge&logo=scrumalliance)
+![Kanban](https://img.shields.io/badge/Kanban-Task_Management-blue?style=for-the-badge&logo=trello)
+![VS Code](https://img.shields.io/badge/VS_Code-Editor-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+
 
 # The Love Sparks
 ![THE LOVE SPARKS](https://img.shields.io/badge/THE_LOVE_SPARKS-Passion_Red?style=for-the-badge)
@@ -269,7 +275,17 @@ We’re proud of what we’ve achieved in the time we had and excited to share o
 
 ## ![Wireframes](https://img.shields.io/badge/Wireframes-View_Now-9cf?style=for-the-badge)
 
-<img src="docs/readme_images/homepage.png" alt="Home Page" width="500">
+## Wireframes
+
+### 🏠 Homepage
+![Homepage Wireframe](assets/images/wireframes5.png)
+![Homepage Wireframe](assets/images/wireframes4.png)
+
+### 🔑 Login Page
+![Login Wireframe](assets/images/wireframes1.png)
+
+### 👤 Game Page
+![Game Wireframe](assets/images/wireframes3.png)
 
 ![Favicon](https://img.shields.io/badge/Favicon-Custom_Icon-blue?style=for-the-badge)
 
@@ -288,6 +304,33 @@ We’re proud of what we’ve achieved in the time we had and excited to share o
 ![HTML](https://img.shields.io/badge/Frontend-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/Frontend-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/Frontend-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+Languages:
+
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-yellow.svg">
+<img alt="HTML" src="https://img.shields.io/badge/HTML-5-orange.svg">
+<img alt="CSS" src="https://img.shields.io/badge/Frontend-CSS-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white">
+Development Tools:
+
+<img alt="Gitpod" src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod">
+<img alt="VS Code" src="https://img.shields.io/badge/VS_Code-Editor-007ACC?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=white">
+<img alt="GitHub" src="https://img.shields.io/badge/GitHub-Repository-181717.svg">
+<img alt=".gitattributes" src="https://img.shields.io/badge/.gitattributes-Repository_Config-blue?style=for-the-badge&amp;logo=git">
+Methodologies:
+
+<img alt="Agile" src="https://img.shields.io/badge/Agile-Development_Methodology-orange?style=for-the-badge&amp;logo=scrumalliance">
+<img alt="Kanban" src="https://img.shields.io/badge/Kanban-Task_Management-blue?style=for-the-badge&amp;logo=trello">
+Frontend Frameworks and Libraries:
+
+<img alt="HTML" src="https://img.shields.io/badge/Frontend-HTML-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white">
+<img alt="CSS" src="https://img.shields.io/badge/Frontend-CSS-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white">
+<img alt="JavaScript" src="https://img.shields.io/badge/Frontend-JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black">
+Design and Visuals:
+
+<img alt="Wireframes" src="https://img.shields.io/badge/Wireframes-View_Now-9cf?style=for-the-badge">
+<img alt="Images" src="https://img.shields.io/badge/Images-Visual_Design-purple?style=for-the-badge">
+<img alt="Font" src="https://img.shields.io/badge/Font-Typography_Style-orange?style=for-the-badge">
+<img alt="Montserrat" src="https://img.shields.io/badge/Font-Montserrat-0073e6?style=for-the-badge&amp;logo=GoogleFonts&amp;logoColor=white">
+<img alt="Playfair Display" src="https://img.shields.io/badge/Font-Playfair Display-e6007e?style=for-the-badge&amp;logo=GoogleFonts&amp;logoColor=white">
 
 ## Bugs ![Bugs](https://img.shields.io/badge/Bugs-Squashed-brightgreen?style=for-the-badge&logo=bug&logoColor=white)
 ![Lighthouse](assets/testing/lighthouse-testing.png)
