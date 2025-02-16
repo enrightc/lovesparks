@@ -26,8 +26,10 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <!-- Logo -->
-        <a class="navbar-brand" href="#">🔥 Ignite</a>
-
+        <div class="container-fluid d-flex justify-content-between">
+          <div class="mx-auto order-0">
+        <a class="navbar-brand" href="index.html">Ignite 🔥</a>
+        </div>
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,17 +40,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Matches</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Messages</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
-                </li>
 
                 <!-- Dropdown Menu for Profile -->
                 <li class="nav-item dropdown">
@@ -63,11 +64,6 @@
                 </li>
             </ul>
 
-            <!-- Search Bar -->
-            <form class="d-flex ms-lg-3">
-                <input class="form-control me-2" type="search" placeholder="Find a match..." aria-label="Search">
-                <button class="btn btn-outline-danger" type="submit">Search</button>
-            </form>
         </div>
     </div>
 </nav>
