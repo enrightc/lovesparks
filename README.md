@@ -384,6 +384,8 @@ Design and Visuals:
 | --- | --- | --- | --- |
 | index | 17/02/2025 | Stray header tag removed as well as trailing slashes. Moved footer inside body and removed unused div closing tag  | Pass |
 | Login | 17/02/2025 | Amended anchor element being a descendant of the button element and changed h1 to h2 element | pass |
+| Registration | 17/02/2025 | Removed all the <b> tags from inside the <option> tags | Pass |
+
 
 
 ### Solved Bugs ![Killed Bugs](https://img.shields.io/badge/Killed%20Bugs-✔️-brightgreen?style=for-the-badge&logo=bugatti)
