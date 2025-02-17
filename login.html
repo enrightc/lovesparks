@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="{% static 'assets/favicon/favicon.ico' %}" type="image/x-icon">
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
     <title>Login</title>
    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -55,6 +55,9 @@
                             <li><a class="dropdown-item text-white" href="show_profile.html">My Profile</a></li>
                             <li><a class="dropdown-item text-white" href="index.html">Logout</a></li>
                         </ul>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="team.html">Meet the Team</a>
+                      </li>
                     </li>
                 </ul>
             </div>
@@ -68,7 +71,7 @@
     
         <div class="form">
             <div class="wrapperLogin">
-                <h1>Welcome!</h1>
+                <h2 class="text-center text-danger">Welcome!</h2>
                 <form method="post">
                     <div class="input-box">
                         <input type="email" placeholder="Email" name="email"><i class='bx bxs-envelope'></i>
@@ -84,7 +87,9 @@
                         </label> 
                         <a href="">Forgot Password?</a>
                     </div>
-                    <button class="bttn" type="submit" name="login"><a href="show_profile.html">Login</a></button>
+                    <div class="text-center">
+                    <a href="show_profile.html" class="btn btn-dark" role="button">Login</a>
+                    </div>
                     <div class="register-link">
                         <p>Do not have an account? <a href="registration.html">Register</a></p>
                     </div>

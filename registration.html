@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="{% static 'assets/favicon/favicon.ico' %}" type="image/x-icon">
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
     <title>Register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/forms.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -53,6 +53,9 @@
                             <li><a class="dropdown-item text-white" href="show_profile.html">My Profile</a></li>
                             <li><a class="dropdown-item text-white" href="index.html">Logout</a></li>
                         </ul>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="team.html">Meet the Team</a>
+                        </li>
                     </li>
                 </ul>
             </div>
@@ -63,101 +66,94 @@
 
     <!-- Main Content -->
 
-        <div class="form">
-            <div class="wrapperRegister">
-                <h1>Shine & Ignite!</h1>
-                <form method="post" enctype="multipart/form-data">
-                    <div class="input-grid">
-                        <div class="input-box">
-                            <input type="text" placeholder="Username" name="username"><i class='bx bxs-user'></i>
-                            <p class="error"></p>
-                        </div>
-                        <div class="input-box">
-                            <select name="gender">
-                                <option value="null">Select gender</option>
-                                <option value="female">Female</option>
-                                <option value="male">Male</option>
-                                <option value="male">Non-Bynary</option>
-                                <option value="male">LGTB</option>
-                            </select>
-                            <i class='bx bxs-chevron-down'></i>
-                            <p class="error"></p>
-                        </div>
-                        <div class="input-box-date">
-                            <label for="date" class="custom-date">* Date of Birth: </label>
-                            <input id="date" type="date" name="date_of_birth">
-                            <p class="error"></p>
-                        </div>
-                        <div class="input-box">
-                            <select name="looking-for">
-                                <option value="null">Looking for:</option>
-                                <option value="female">Love</option>
-                                <option value="male">Fun</option>
-                                <option value="male">Frienship</option>
-                                <option value="male">Networking</option>
-                            </select>
-                            <i class='bx bxs-chevron-down'></i>
-                            <p class="error"></p>
-                        </div>                   
-                        <div class="input-box">
-                            <select name="time-preference">
-                                <option value="null">Time Preference (How You Spend Your Free Time)</option>
-                                <option value="golden-hour"><b>Golden Hour Seeker - </b>Sunrises, sunsets, and making the most of every moment.</option>
-                                <option value="night"><b>Night Wanderer - </b>Midnight convos, city lights, and spontaneous late-night plans.
-                                </option>
-                                <option value="weekend"><b>Weekend Explorer - </b>Road trips, brunches, and discovering new spots.
-                                </option>
-                            </select>
-                            <i class='bx bxs-chevron-down'></i>
-                            <p class="error"></p>
-                        </div>                   
-                        <div class="input-box">
-                            <select name="time-preference">
-                                <option value="null">Friends Description (Your Social Energy)</option>
-                                <option value="the-connector"><b>The Connector -</b> Always bringing people together, the glue of the group.</option>
-                                <option value="chill-companion"><b>The Chill Companion -</b> Movie nights, deep convos, and good vibes only.
-                                </option>
-                                <option value="wild-spark"><b>The Wild Spark - </b>Life of the party. Last-minute plans? Count me in!
-                                </option>
-                            </select>
-                            <i class='bx bxs-chevron-down'></i>
-                            <p class="error"></p>
-                        </div>                   
-                        <div class="input-box">
-                            <select name="time-preference">
-                                <option value="null">Relationship Excites (What Draws You In?)</option>
-                                <option value="electric-chemistry"><b>Electric Chemistry -</b> Always bringing people together, the glue of the group.</option>
-                                <option value="deep-connection"><b>Deep Connection - </b>Vulnerability, trust, and real conversations.
-                                </option>
-                                <option value="playful-fun"><b>Playful & Fun  - </b>Flirty banter, inside jokes, and endless laughter.
-                                </option>
-                            </select>
-                            <i class='bx bxs-chevron-down'></i>
-                            <p class="error"></p>
-                        </div>                   
-                        <div class="input-box">
-                            <input type="email" placeholder="Email" name="email"><i class='bx bxs-envelope'></i>
-                            <p class="error"></p>
-                        </div>
-                        <div class="input-box">
-                            <input type="password" placeholder="Password" name="password"><i class='bx bxs-lock-alt'></i>
-                            <p class="error"></p>
-                        </div>
-                        <div class="input-box">
-                            <label for="file-upload" class="input custom-file-upload ">Upload profile picture <i class='bx bx-image-add'></i></label>
-                            <input id="file-upload" type="file" name="picture">
-                        </div>
+    <div class="form">
+        <div class="wrapperRegister text-center text-danger">
+            <h2>Shine & Ignite!</h2>
+            <form method="post" enctype="multipart/form-data">
+                <div class="input-grid">
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" name="username"><i class='bx bxs-user'></i>
+                        <p class="error"></p>
                     </div>
-                    <div class="bttn-section">
-                        <button class="bttn" type="submit" name="register"><a href="show_profile.html">Register</a></button>
+                    <div class="input-box">
+                        <select name="gender">
+                            <option value="null">Select gender</option>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <option value="non-binary">Non-Binary</option>
+                            <option value="lgtb">LGTB</option>
+                        </select>
+                        <i class='bx bxs-chevron-down'></i>
+                        <p class="error"></p>
                     </div>
-                    <div class="register-link">
-                        <p>Already registered? <a href="login.html">Sign in</a></p>
+                    <div class="input-box-date">
+                        <label for="date" class="custom-date">* Date of Birth: </label>
+                        <input id="date" type="date" name="date_of_birth">
+                        <p class="error"></p>
                     </div>
-                </form>
-            </div>
+                    <div class="input-box">
+                        <select name="looking-for">
+                            <option value="null">Looking for:</option>
+                            <option value="female">Love</option>
+                            <option value="male">Fun</option>
+                            <option value="friendship">Friendship</option>
+                            <option value="networking">Networking</option>
+                        </select>
+                        <i class='bx bxs-chevron-down'></i>
+                        <p class="error"></p>
+                    </div>                   
+                    <div class="input-box">
+                        <select name="time-preference">
+                            <option value="null">Time Preference (How You Spend Your Free Time)</option>
+                            <option value="golden-hour">Golden Hour Seeker - Sunrises, sunsets, and making the most of every moment.</option>
+                            <option value="night">Night Wanderer - Midnight convos, city lights, and spontaneous late-night plans.</option>
+                            <option value="weekend">Weekend Explorer - Road trips, brunches, and discovering new spots.</option>
+                        </select>
+                        <i class='bx bxs-chevron-down'></i>
+                        <p class="error"></p>
+                    </div>                   
+                    <div class="input-box">
+                        <select name="friends-description">
+                            <option value="null">Friends Description (Your Social Energy)</option>
+                            <option value="the-connector">The Connector - Always bringing people together, the glue of the group.</option>
+                            <option value="chill-companion">The Chill Companion - Movie nights, deep convos, and good vibes only.</option>
+                            <option value="wild-spark">The Wild Spark - Life of the party. Last-minute plans? Count me in!</option>
+                        </select>
+                        <i class='bx bxs-chevron-down'></i>
+                        <p class="error"></p>
+                    </div>                   
+                    <div class="input-box">
+                        <select name="relationship-excitement">
+                            <option value="null">Relationship Excites (What Draws You In?)</option>
+                            <option value="electric-chemistry">Electric Chemistry - Always bringing people together, the glue of the group.</option>
+                            <option value="deep-connection">Deep Connection - Vulnerability, trust, and real conversations.</option>
+                            <option value="playful-fun">Playful & Fun - Flirty banter, inside jokes, and endless laughter.</option>
+                        </select>
+                        <i class='bx bxs-chevron-down'></i>
+                        <p class="error"></p>
+                    </div>                   
+                    <div class="input-box">
+                        <input type="email" placeholder="Email" name="email"><i class='bx bxs-envelope'></i>
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" name="password"><i class='bx bxs-lock-alt'></i>
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-box">
+                        <label for="file-upload" class="input custom-file-upload ">Upload profile picture <i class='bx bx-image-add'></i></label>
+                        <input id="file-upload" type="file" name="picture">
+                    </div>
+                </div>
+                <div class="bttn-section">
+                    <button class="bttn" type="button" onclick="window.location.href='show_profile.html';">Register</button>
+                </div>
+                <div class="register-link">
+                    <p>Already registered? <a href="login.html">Sign in</a></p>
+                </div>
+            </form>
         </div>
-
+    </div>
  
 <!-- footer -->
 <footer>

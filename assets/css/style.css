@@ -313,6 +313,51 @@
 
  /*******************************************END OF CHAT PAGE STYLING*/
  
+
+/* Team Member Styles */
+
+#team-heading{
+  font-family: var(--text-title);
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--text-colour-dark);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.team-member {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h2 {
+  margin-top: 0;
+}
+
+.team-member p {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+
  /* Media Queries Match Page */
 /* Media Queries Match Page */
 @media screen and (min-width: 472px) {
