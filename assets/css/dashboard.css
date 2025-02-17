@@ -1,0 +1,229 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Reset Default Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+    /* Background Colors */
+    --clr-primary-bg: #b80d16;
+    --clr-secondary-bg: #810a0c;
+    --clr-accent: #ea1823;
+    --clr-dark-bg: #000000;
+    --clr-light-bg: #fffffa;
+    --clr-card-bg: #1a1a1a;
+    
+    /* Text Colors */
+    --text-dark: #000000;
+    --text-light: #ffffff;
+    
+    /* Font Families */
+    --text-title: "Playfair Display", serif;
+    --text-body: "Montserrat", sans-serif;
+}
+
+/* GENERAL STYLES */
+body {
+    font-family: var(--text-body);
+    background-color: var(--clr-light-bg);
+    color: var(--text-light);
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background: var(--clr-accent);
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.sidebar h2 {
+    font-family: var(--text-title);
+    color: var(--text-light);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: var(--text-light);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: var(--clr-accent);
+}
+
+/* MAIN CONTENT */
+.content {
+    margin-left: 270px;
+    padding: 30px;
+}
+
+/* DASHBOARD STATS */
+.card {
+    background: var(--clr-card-bg) !important;
+    color: var(--text-light) !important;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.3);
+    text-align: center;
+}
+
+.card h5 {
+    font-family: var(--text-title);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.3rem;
+}
+
+/* Custom Card Backgrounds */
+.card.bg-primary {
+    background: var(--clr-primary-bg) !important;
+}
+
+.card.bg-success {
+    background: var(--clr-secondary-bg) !important;
+}
+
+.card.bg-warning {
+    background: var(--clr-accent) !important;
+    color: var(--text-light) !important;
+}
+
+/* TABLE STYLING */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--clr-card-bg);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--clr-light-bg);
+}
+
+th {
+    background: var(--clr-secondary-bg);
+    color: var(--text-light);
+}
+
+tr:hover {
+    background: rgba(255, 0, 0, 0.2);
+}
+
+/* Table Header Styling */
+.table-dark {
+    background: var(--clr-secondary-bg) !important;
+}
+
+/* User Management Header */
+.card-header {
+    background: var(--clr-dark-bg) !important;
+    color: var(--text-light) !important;
+}
+
+/* User Reports Header */
+.card-header.bg-danger {
+    background: var(--clr-primary-bg) !important;
+}
+
+/* BUTTON STYLES */
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: var(--clr-accent) !important;
+    color: var(--text-light) !important;
+}
+
+.btn-danger {
+    background: #ff4c4c !important;
+    color: var(--text-light) !important;
+}
+
+.btn-warning {
+    background: #ffbf00 !important;
+    color: var(--text-dark) !important;
+}
+
+.btn-secondary {
+    background: var(--clr-dark-bg) !important;
+    color: var(--text-light) !important;
+}
+
+.btn-primary:hover {
+    background: #ff6161 !important;
+}
+
+.btn-danger:hover {
+    background: #cc0000 !important;
+}
+
+.btn-warning:hover {
+    background: #e6a800 !important;
+}
+
+.btn-secondary:hover {
+    background: #333333 !important;
+}
+
+/* BADGES */
+.badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.badge.bg-success {
+    background: var(--clr-secondary-bg) !important;
+    color: var(--text-light) !important;
+}
+
+.badge.bg-warning {
+    background: var(--clr-accent) !important;
+    color: var(--text-light) !important;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100px;
+    }
+
+    .content {
+        margin-left: 110px;
+        padding: 20px;
+    }
+
+    .sidebar h2 {
+        font-size: 1rem;
+    }
+
+    .sidebar a {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+}
