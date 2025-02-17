@@ -11,12 +11,84 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
         <title>Ignite</title>
     </head>
-    <body>
-        <header>
+
+    
+<!-- Header -->
+     <header>
             <nav class="navbar navbar-expand-lg text-white">
                 <div class="container d-flex justify-content-between">
                     <div class="mx-auto order-0">
                         <a class="navbar-brand text-white" href="index.html"><h1>Ignite 🔥</h1></a>
+                    </div>
+          <!-- Mobile Menu Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse w-auto" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto d-flex flex-column flex-lg-row align-items-end text-end">
+                  <li class="nav-item">
+                      <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active text-white" href="find_a_match.html">Matches</a>
+    
+                      <!-- Dropdown Menu for Profile -->
+                  <li class="nav-item dropdown text-white">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Profile
+                    </a>
+                    <!-- Dropdown Menu -->
+                    <ul class="dropdown-menu dropdown-menu-end" style="min-width: 200px;">
+                        <li><a class="dropdown-item text-white" href="show_profile.html">My Profile</a></li>
+                        <li><a class="dropdown-item text-white" href="index.html">Logout</a></li>
+                    </ul>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="team.html">Meet the Team</a>
+                  </li>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    
+    </header>
+<!-- About Section -->
+<div id="about">
+    
+    <!-- Header Section -->
+    <div class="container-fluid" id="about-header">
+        <div class="row p-3 text-center align-items-center"> 
+            <div class="col-md-8">
+                <h1 class="p-1">Find Your Spark & <br> Ignite New Connections</h1>
+                <p class="p-1">Express yourself, connect with others, and ignite something real.</p>
+            </div>
+            <div class="col-md-4" id="header-image"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Section  -->
+    <section class="container-fluid" id="about-main-1">
+        <div class="row p-5 align-items-center">
+            <div class="col-12">
+                <h1 class="pb-3">Why Ignite?</h1>    
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                      <h1 class="card-title"><i class="fa-solid fa-fire"></i></h1>
+                      <h2 class="card-title">Match based on spark</h2>
+                      <p class="card-text">Discover people who align with your personality, interests, and values—not just their looks.</p>
+
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -7,19 +7,17 @@
 ![Kanban](https://img.shields.io/badge/Kanban-Task_Management-blue?style=for-the-badge&logo=trello)
 ![VS Code](https://img.shields.io/badge/VS_Code-Editor-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-
-
 # The Love Sparks
+
 ![THE LOVE SPARKS](https://img.shields.io/badge/THE_LOVE_SPARKS-Passion_Red?style=for-the-badge)
 ![Ignite](https://img.shields.io/badge/Ignite-Great_Matches_Fuel_Sparks-orange?style=for-the-badge)
-
-
 
 ## ![Overview](https://img.shields.io/badge/Overview-Discovery-orange?style=for-the-badge)
 
 **![Ignite APP](https://img.shields.io/badge/Ignite_APP-Love_in_Action-FF69B4?style=for-the-badge)** is a dating app designed for users who value personality over superficial swiping. Instead of seeing a full profile immediately, users discover potential matches through a step-by-step reveal of key personality traits, ensuring compatibility is built on genuine interest.
 
 ## ![AIM](https://img.shields.io/badge/AIM-meaningfulCONNECTIONS-blue?style=for-the-badge)
+
 - To revolutionise online dating by prioritising meaningful connections over superficial swiping.
 - By using progressive personality/like matching system the app encourages users to engage with potential partners based on compatibility rather than appearance alone.
 
@@ -47,6 +45,16 @@ First up, users fill out a **quick questionnaire** to highlight their personalit
 The whole idea is to **put personality first** and make connections that actually mean something. No snap judgments—just a bit of curiosity and a fun way to discover people who genuinely click.
 
 ![Announcement](https://img.shields.io/badge/Announcement-Exciting_Updates-purple?style=for-the-badge)
+
+## ⏳ Time Commitment & Team Effort
+
+## ⏳ Time Commitment, Skills Gap & Team Effort
+
+Hackathons typically suggest a commitment of **3–5 hours per day**, but for our team, this proved to be a challenge. Many members were only able to contribute **a few hours throughout the entire event**, in some cases **as little as 5 hours in total**.
+
+This created a **significant gap** that had to be picked up by a core group of **four dedicated team members**, each putting in **12+ hours per day** to ensure our project came together. Alongside the time commitment, this also meant overcoming a **major skills gap**, requiring us to **learn on the fly, support each other, and step outside our comfort zones** to keep things moving.
+
+Despite these challenges, we **pulled together as a team**, adapted where necessary, and made the best of the time and resources we had. It was a true demonstration of **resilience, problem-solving, and teamwork**, and we’re incredibly proud of what we achieved! 🚀🔥
 
 ![Pivot & Final Implementation](https://img.shields.io/badge/Pivot_&_Final_Implementation-Refined_Version-blueviolet?style=for-the-badge)
 
@@ -78,7 +86,6 @@ While there is no backend or database, **JavaScript** is used to create a dynami
 ![Register Page](https://img.shields.io/badge/Register_Page-Sign_Up-red?style=for-the-badge)
 ![Login Page & Register](assets/testing/register-page.png)
 [![404 Page](assets/images/404-img.png)](assets/images/404-img.png)
-
 
 ![Lessons Learned](https://img.shields.io/badge/Lessons_Learned-Key_Takeaways-yellow?style=for-the-badge)
 
@@ -262,38 +269,42 @@ We’re proud of what we’ve achieved in the time we had and excited to share o
     - **Automated ban or suspension?** (TBD)
 
 ![To RUN APP](https://img.shields.io/badge/To_RUN_APP-Setup_Guide-brightgreen?style=for-the-badge)
+
 - Log in using your github account,
-     * https://github.com/enrightc/lovesparks.git
+  - https://github.com/enrightc/lovesparks.git
 - Fork your own copy of the respository (on the righthandside of the page)
-- click the down arrow and then  + "Create a new fork"
+- click the down arrow and then + "Create a new fork"
 - Now you have your own copy of the APP
 - On the righthandside is a big blue button with " <> Code click on here to get a HHTPS which you can run in vs-code.
 
-- To run a frontend (HTML, CSS, Javascript only) application in the terminal, type: 
+- To run a frontend (HTML, CSS, Javascript only) application in the terminal, type:
 
-    `python3 -m http.server`
+  `python3 -m http.server`
 
-    ##  - GitHub Repo: https://github.com/enrightc/lovesparks
-    ## - Deployed at: https://enrightc.github.io/lovesparks/
+  ## - GitHub Repo: https://github.com/enrightc/lovesparks
+
+  ## - Deployed at: https://enrightc.github.io/lovesparks/
 
 ## ![Wireframes](https://img.shields.io/badge/Wireframes-View_Now-9cf?style=for-the-badge)
 
 ## Wireframes
 
 ### 🏠 Homepage
+
 ![Homepage Wireframe](assets/images/wireframes5.png)
 ![Homepage Wireframe](assets/images/wireframes4.png)
 
 ### 🔑 Login Page
+
 ![Login Wireframe](assets/images/wireframes1.png)
 
 ### 👤 Game Page
+
 ![Game Wireframe](assets/images/wireframes3.png)
 
 ![Favicon](https://img.shields.io/badge/Favicon-Custom_Icon-blue?style=for-the-badge)
 
 ![Favicon](assets/favicon/android-chrome-192x192.png)
-
 
 ![Images](https://img.shields.io/badge/Images-Visual_Design-purple?style=for-the-badge)
 
@@ -301,10 +312,10 @@ We’re proud of what we’ve achieved in the time we had and excited to share o
 ![Montserrat](https://img.shields.io/badge/Font-Montserrat-0073e6?style=for-the-badge&logo=GoogleFonts&logoColor=white)
 ![Playfair Display](https://img.shields.io/badge/Font-Playfair%20Display-e6007e?style=for-the-badge&logo=GoogleFonts&logoColor=white)
 
-
 ## ![Technologies](https://img.shields.io/badge/Technologies-Stack-ff9800?style=for-the-badge)
 
 ### Languages:
+
 ![HTML](https://img.shields.io/badge/Frontend-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/Frontend-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/Frontend-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -340,18 +351,31 @@ Design and Visuals:
 ### Testing with Lighthouse
 
 #### Homepage
+
 ![Lighthouse](assets/testing/lighthome.png)
+
 #### Registration Page
+
 ![Lighthouse](assets/testing/lightregistration.png)
+
 #### Login page
+
 ![Lighthouse](assets/testing/lightlogin.png)
+
 #### About page
+
 ![Lighthouse](assets/testing/lightabout.png)
+
 #### Matches page
+
 ![Lighthouse](assets/testing/lightmatches.png)
+
 #### Chat page
+
 ![Lighthouse](assets/testing/lightchat.png)
+
 #### Profile page
+
 ![Lighthouse](assets/testing/lighthouse-testing.png)
 
 ## HTML and CSS W3C Validator Testing
@@ -369,7 +393,6 @@ Design and Visuals:
 ### Unsolved Bugs ![Alive Bugs](https://img.shields.io/badge/Alive%20Bugs-❌-red?style=for-the-badge&logo=bugatti)
 
 ## Future Improvements ![Future Improvements](https://img.shields.io/badge/✈️-Future%20Improvements-blue?style=for-the-badge)
-
 
 ## [![Meet the Team](https://img.shields.io/static/v1?label=Meet_the_Team&message=Know_Us&color=0078D4&style=flat-square)](https://yourlink.com)
 
