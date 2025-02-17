@@ -338,6 +338,20 @@ Design and Visuals:
 ## Bugs ![Bugs](https://img.shields.io/badge/Bugs-Squashed-brightgreen?style=for-the-badge&logo=bug&logoColor=white)
 
 ### Testing with Lighthouse
+
+#### Homepage
+![Lighthouse](assets/testing/lighthome.png)
+#### Registration Page
+![Lighthouse](assets/testing/lightregistration.png)
+#### Login page
+![Lighthouse](assets/testing/lightlogin.png)
+#### About page
+![Lighthouse](assets/testing/lightabout.png)
+#### Matches page
+![Lighthouse](assets/testing/lightmatches.png)
+#### Chat page
+![Lighthouse](assets/testing/lightchat.png)
+#### Profile page
 ![Lighthouse](assets/testing/lighthouse-testing.png)
 
 ### Solved Bugs ![Killed Bugs](https://img.shields.io/badge/Killed%20Bugs-✔️-brightgreen?style=for-the-badge&logo=bugatti)
