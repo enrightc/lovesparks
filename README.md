@@ -12,6 +12,75 @@
 ![THE LOVE SPARKS](https://img.shields.io/badge/THE_LOVE_SPARKS-Passion_Red?style=for-the-badge)
 ![Ignite](https://img.shields.io/badge/Ignite-Great_Matches_Fuel_Sparks-orange?style=for-the-badge)
 
+## - GitHub Repo: https://github.com/enrightc/lovesparks
+
+## - Deployed at: https://enrightc.github.io/lovesparks/
+
+# Table of Contents
+
+1. [GitHub Repository & Deployment](#github-repository--deployment)
+2. [Overview](#overview)
+3. [AIM](#aim)
+4. [How It Works](#how-it-works)
+   - [Step 1: Personalized Questionnaire](#step-1-personalized-questionnaire)
+   - [Step 2: Finding a Match](#step-2-finding-a-match)
+   - [Step 3: Connection](#step-3-connection)
+5. [Time Commitment, Skills Gap & Team Effort](#time-commitment-skills-gap--team-effort)
+6. [Pivot & Final Implementation](#pivot--final-implementation)
+7. [What We Built](#what-we-built)
+   - [Home Page](#home-page)
+   - [Profile Page](#profile-page)
+   - [Find a Match Page](#find-a-match-page)
+   - [Login Page](#login-page)
+   - [Register Page](#register-page)
+8. [Lessons Learned](#lessons-learned)
+9. [Future Plans](#future-plans)
+10. [User Stories](#user-stories)
+    - [First Time Users](#first-time-users)
+      - [Landing Page](#landing-page)
+      - [Registration Form](#registration-form)
+      - [Email Registration / Verification](#email-registration--verification)
+    - [Returning Users](#returning-users)
+      - [Login Form](#login-form)
+      - [Navigation](#navigation)
+      - [Match Page](#match-page)
+      - [User Dashboard / Profile Settings](#user-dashboard--profile-settings)
+      - [Security Settings](#security-settings)
+      - [Filter for Potential Matches](#filter-for-potential-matches)
+      - [Match Alert](#match-alert)
+      - [Profile Details](#profile-details)
+      - [Chat Page (Active Matches Section)](#chat-page-active-matches-section)
+      - [Report / Block](#report--block)
+    - [Admin Users / Mods](#admin-users--mods)
+      - [Admin Dashboard](#admin-dashboard)
+      - [Show Profile Details](#show-profile-details)
+      - [Moderation & Enforcement](#moderation--enforcement)
+11. [Feature Enhancements](#feature-enhancements)
+    - [Backend Integration](#backend-integration)
+    - [Enhanced Chat Features](#enhanced-chat-features)
+    - [AI-Powered Matching](#ai-powered-matching)
+    - [Safety & Moderation](#safety--moderation)
+    - [Community & Support](#community--support)
+    - [Business & Monetization](#business--monetization)
+12. [To Run the App](#to-run-the-app)
+13. [Wireframes](#wireframes)
+    - [Homepage](#homepage)
+    - [Login Page](#login-page)
+    - [Game Page](#game-page)
+14. [Technologies](#technologies)
+    - [Languages](#languages)
+    - [Development Tools](#development-tools)
+    - [Methodologies](#methodologies)
+    - [Frontend Frameworks and Libraries](#frontend-frameworks-and-libraries)
+15. [Bugs](#bugs)
+    - [Testing with Lighthouse](#testing-with-lighthouse)
+    - [HTML W3C Validator Testing](#html-w3c-validator-testing)
+    - [Solved Bugs](#solved-bugs)
+    - [Unsolved Bugs](#unsolved-bugs)
+16. [Future Improvements](#future-improvements)
+17. [Meet the Team](#meet-the-team)
+18. [Final Word](#final-word)
+
 ## ![Overview](https://img.shields.io/badge/Overview-Discovery-orange?style=for-the-badge)
 
 **![Ignite APP](https://img.shields.io/badge/Ignite_APP-Love_in_Action-FF69B4?style=for-the-badge)** is a dating app designed for users who value personality over superficial swiping. Instead of seeing a full profile immediately, users discover potential matches through a step-by-step reveal of key personality traits, ensuring compatibility is built on genuine interest.
@@ -45,8 +114,6 @@ First up, users fill out a **quick questionnaire** to highlight their personalit
 The whole idea is to **put personality first** and make connections that actually mean something. No snap judgments—just a bit of curiosity and a fun way to discover people who genuinely click.
 
 ![Announcement](https://img.shields.io/badge/Announcement-Exciting_Updates-purple?style=for-the-badge)
-
-## ⏳ Time Commitment & Team Effort
 
 ## ⏳ Time Commitment, Skills Gap & Team Effort
 
@@ -380,17 +447,65 @@ Design and Visuals:
 
 ## HTML W3C Validator Testing
 
-| Page | date | Comments | Pass/Fail |
-| --- | --- | --- | --- |
-| index | 17/02/2025 | Stray header tag removed as well as trailing slashes. Moved footer inside body and removed unused div closing tag  | Pass |
-| Login | 17/02/2025 | Amended anchor element being a descendant of the button element and changed h1 to h2 element | pass |
-
+| Page         | date       | Comments                                                                                                          | Pass/Fail |
+| ------------ | ---------- | ----------------------------------------------------------------------------------------------------------------- | --------- |
+| index        | 17/02/2025 | Stray header tag removed as well as trailing slashes. Moved footer inside body and removed unused div closing tag | Pass      |
+| Login        | 17/02/2025 | Amended anchor element being a descendant of the button element and changed h1 to h2 element                      | pass      |
+| Registration | 17/02/2025 | Removed all the <b> tags from inside the <option> tags                                                            | Pass      |
 
 ### Solved Bugs ![Killed Bugs](https://img.shields.io/badge/Killed%20Bugs-✔️-brightgreen?style=for-the-badge&logo=bugatti)
 
 ### Unsolved Bugs ![Alive Bugs](https://img.shields.io/badge/Alive%20Bugs-❌-red?style=for-the-badge&logo=bugatti)
 
 ## Future Improvements ![Future Improvements](https://img.shields.io/badge/✈️-Future%20Improvements-blue?style=for-the-badge)
+
+### 🚀 Feature Enhancements
+
+Backend Integration
+
+- Implement Django (or Node.js/Express) for user authentication and data storage.
+- Use PostgreSQL or NeoDB to store user data and match interactions.
+- Add real-time notifications for matches and messages.
+
+Enhanced Chat Features
+
+- Implement end-to-end encryption for chat messages.
+- Add voice messages & video calling options for deeper connections.
+- Integrate GIFs & emojis for a more engaging chat experience.
+
+AI-Powered Matching
+
+- Implement AI/ML algorithms to improve match suggestions based on user interactions.
+- Use sentiment analysis in messages to suggest conversation starters.
+- Personalize match recommendations by learning from user preferences.
+
+🔐 Safety & Moderation
+
+Advanced Security Measures
+
+- Add two-factor authentication (2FA) for account security.
+- Use AI moderation tools to detect inappropriate messages.
+- Implement user verification badges to prevent catfishing.
+
+Community & Support
+
+- Add user-generated content like dating tips & success stories.
+- Introduce anonymized feedback surveys to improve matchmaking.
+- Implement live chat support for quick help.
+
+📈 Business & Monetization
+
+Premium Features (Freemium Model)
+
+- Introduce Love Sparks Plus with exclusive features like:
+- See who liked your profile.
+- Unlimited chat & swipes.
+- Advanced match filters.
+
+Local Events & Matchmaking
+
+- Host virtual speed dating events in-app.
+- Provide local meetup suggestions based on mutual interests.
 
 ## [![Meet the Team](https://img.shields.io/static/v1?label=Meet_the_Team&message=Know_Us&color=0078D4&style=flat-square)](https://yourlink.com)
 
@@ -402,8 +517,14 @@ Design and Visuals:
 
 [![Iliana Marquez's GitHub](https://img.shields.io/badge/GitHub-Iliana--Marquez-181717?style=for-the-badge&logo=github)](https://github.com/iliana-marquez)[![Iliana Marquez's LinkedIn](https://img.shields.io/badge/LinkedIn-Iliana_Marquez-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iliana-marquez-3b6795339/)
 
-[![Mildred-prog's GitHub](https://img.shields.io/badge/GitHub-Mildred--prog-181717?style=for-the-badge&logo=github)](https://github.com/mildred-prog)[![Mildred Aneke's LinkedIn](https://img.shields.io/badge/LinkedIn-Mildred_Aneke-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mildred-aneke-3920241b8/)
+## 🔥 !Final Word
 
-[![Elvisthegreat's GitHub](https://img.shields.io/badge/GitHub-Elvisthegreat-181717?style=for-the-badge&logo=github)](https://github.com/Elvisthegreat)[![Elvis Blessing Eunice's LinkedIn](https://img.shields.io/badge/LinkedIn-Elvis_Blessing-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elvisblessingeunice-software-dev/)
+Hackathons are an incredible way to connect with the coding community, learn from one another, and step away from the often overwhelming world of online learning. Throughout this journey, we faced our challenges head-on, adapted, and stayed committed to our vision.
 
-[![Krishna0890227's GitHub](https://img.shields.io/badge/GitHub-Krishna0890227-181717?style=for-the-badge&logo=github)](https://github.com/krishna0890227)
+What truly set us apart was our teamwork—embracing agile learning, problem-solving together, and communicating effectively. Every team member played a crucial role, bringing leadership, creativity, and motivation to the table. The energy and determination were inspiring, making this experience not just about coding, but about collaboration, resilience, and innovation.
+
+A huge thank you to our team and the support from CI—your guidance and encouragement made this possible.
+
+We hope you enjoy "Ignite", our dating app that challenges the superficial nature of modern dating. In a digital era that often prioritises appearances, we believe it's time to return to the essence of true connection—understanding what a user truly wants and needs.
+
+💖 Enjoy the experience, spark meaningful connections, and let love ignite!
