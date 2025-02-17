@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
   
-      <link rel="icon" href="{% static 'favicon/favicon_hack_feb/favicon.ico' %}" type="image/x-icon">
+      <link rel="icon" href="{% static 'assets/favicon/favicon.ico' %}" type="image/x-icon">
       
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -93,17 +93,26 @@
           alt="Print caption of the displayed photo"
         />
       </div>
+      <div class="reveal" id="profileReveal">
+        <img
+          src="https://images.pexels.com/photos/3290250/pexels-photo-3290250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Print caption of the displayed photo"
+        />
+      </div>
     </div>
   
-    <div class="container-fluid action-buttons text-center">
-      <button class="btn btn-dark buttonfont mx-2" id="reveal-spark">
-        Spark
+    <div class="container-fluid action-buttons text-center pt-5 py-3">
+      <button class="btn rounded-circle btn-dark buttonfont p-3" id="reveal-spark">
+        🔥<br>Spark
       </button>
-      <button class="btn btn-dark buttonfont mx-2" id="fire-up" disabled>
-        Fire Up!
+      <button class="btn rounded-circle btn-dark buttonfont p-3" id="fire-up" disabled>
+        👁️👁️<br>Reveal
       </button>
-      <button class="btn btn-dark buttonfont mx-2 buttonfont" id="next-match">
-        Generate
+      <button class="btn rounded-circle btn-dark buttonfont p-3" id="next-match">
+        <!-- link left # on purpose to refresh page to simulate the loading of a new random match -->
+        <a href="find_a_match.html">&#x1F504<br>New </a>
+        <!-- link left # on purpose to refresh page to simulate the loading of a new random match -->
+        
       </button>
     </div>
   </div>
@@ -155,7 +164,6 @@
       &copy; 2025 The Love Sparks Team. All rights reserved.
     </p>
 </footer>
-</body>
 
 <!-- Font Awesome Kit -->
 <script
@@ -167,6 +175,7 @@ crossorigin="anonymous"
     const categories = document.querySelectorAll('.category');
     const revealBtn = document.getElementById('reveal-spark');
     const fireUpBtn = document.getElementById('fire-up');
+    const profileReveal = document.getElementById('profileReveal');
     let revealedCount = 1; // First card is already visible
     
     revealBtn.addEventListener('click', () => {
@@ -187,7 +196,19 @@ crossorigin="anonymous"
             fireUpBtn.removeAttribute('disabled');
             revealBtn.setAttribute('disabled', true);
         }
+
+
     });
+
+    fireUpBtn.addEventListener ('click', () => {
+        profileReveal.classList.add('show');
+
+        revealBtn.innerHTML = `<a href="chatpage.html">🔥<br>Ignite</a>`;
+        revealBtn.removeAttribute('disabled');
+    });
+    
+
+
     </script>
           
 </body>
