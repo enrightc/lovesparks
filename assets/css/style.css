@@ -164,8 +164,18 @@
    width: 100%;
    height: 50vh;
  }
+
+ #match-page .reveal {
+   opacity: 0;
+ }
  
- #match-page .category {
+ #match-page .reveal.show {
+  opacity: 1;
+  z-index: 4 !important;
+}
+ 
+ #match-page .category, 
+ #match-page .reveal {
    position: absolute;
    transform: translateY(1%) scale(1) rotate(-2deg);
    border-radius: 10px;
@@ -174,7 +184,8 @@
    transition: all 0.4s ease-in-out;
  }
  
- #match-page .category img {
+ #match-page .category img,
+ #match-page .reveal img {
    max-width: 100%;
    border-radius: inherit;
    height: 100%;
@@ -191,6 +202,12 @@
  #match-page .revealed {
    transform: translateY(1%) scale(1) rotate(2.5deg);
    z-index: 2 !important;
+ }
+
+
+ #match-page .reveal{
+   transform: translateY(1%) scale(1) rotate(2.5deg);
+   z-index: 3 !important;
  }
  
  /* Adjust Stacking Effect */
