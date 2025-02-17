@@ -161,15 +161,15 @@
  /* Category Container (Fixed Height) */
  #match-page .stack {
    position: relative;
-   max-width: 100%;
-   min-height: 50vh;
-   border: #ffffff solid 1px;
+   width: 100%;
+   height: 50vh;
  }
  
  #match-page .category {
    position: absolute;
    transform: translateY(1%) scale(1) rotate(-2deg);
    border-radius: 10px;
+   height: 100%;
    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.594);
    transition: all 0.4s ease-in-out;
  }
@@ -177,7 +177,7 @@
  #match-page .category img {
    max-width: 100%;
    border-radius: inherit;
-   max-height: 100%;
+   height: 100%;
    object-fit: cover; /* Ensures image fills the space */
    border-radius: inherit;
  }
@@ -232,7 +232,7 @@
 .chat-header {
   background-color: #ff0048;
   color: #fff;
-  padding: 15px;
+  padding: 3px;
   text-align: center;
 }
 
@@ -288,33 +288,53 @@
  /*******************************************END OF CHAT PAGE STYLING*/
  
  /* Media Queries Match Page */
- @media screen and (min-width: 576px) {
-   #match-page .stack {
-     max-width: 90%;
-     height: 70vh;
-   }
- }
- 
- @media screen and (min-width: 768px) {
-   #match-page .stack {
-     max-width: 80%;
-     height: 75vh;
-   }
- }
- 
- @media screen and (min-width: 992px) {
-   #match-page .stack {
-     max-width: 60%;
-     height: vh;
-   }
- }
- 
- @media screen and (min-width: 1200px) {
-   #match-page .stack {
-     max-width: 50%;
-     /* height: 70vh; */
-   }
- }
+/* Media Queries Match Page */
+@media screen and (min-width: 472px) {
+  #match-page .stack {
+    max-width: 80%;
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #match-page .stack {
+    max-width: 60%;
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #match-page .stack {
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  #match-page .stack {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #match-page .stack {
+    max-width: 48%;
+  }
+}
+
+@media screen and (min-width: 1096px) {
+  #match-page .stack {
+    max-width: 40%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #match-page .stack {
+    max-width: 30%;
+  }
+}
+
+
+
  
  /* Footer */
  
