@@ -172,6 +172,7 @@
  #match-page .reveal.show {
   opacity: 1;
   z-index: 4 !important;
+  transform: translateY(-1%) translatex(25%) scale(1.1) rotate(2.5deg);
 }
  
  #match-page .category, 
@@ -204,7 +205,6 @@
    z-index: 2 !important;
  }
 
-
  #match-page .reveal{
    transform: translateY(1%) scale(1) rotate(2.5deg);
    z-index: 3 !important;
@@ -225,6 +225,15 @@
  #match-page .action-buttons button {
    z-index: 5;
    font-size: 1rem;
+ }
+
+ #match-page button {
+  min-width: 86.9px;
+ }
+ 
+ #match-page button a {
+  text-decoration: none;
+  color: var(--text-colour-light);
  }
 
  /*******************************************CHAT PAGE STYLING*/
