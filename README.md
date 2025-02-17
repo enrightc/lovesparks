@@ -273,6 +273,9 @@ We’re proud of what we’ve achieved in the time we had and excited to share o
 
     `python3 -m http.server`
 
+    ##  - GitHub Repo: https://github.com/enrightc/lovesparks
+    ## - Deployed at: https://enrightc.github.io/lovesparks/
+
 ## ![Wireframes](https://img.shields.io/badge/Wireframes-View_Now-9cf?style=for-the-badge)
 
 ## Wireframes
@@ -335,6 +338,20 @@ Design and Visuals:
 ## Bugs ![Bugs](https://img.shields.io/badge/Bugs-Squashed-brightgreen?style=for-the-badge&logo=bug&logoColor=white)
 
 ### Testing with Lighthouse
+
+#### Homepage
+![Lighthouse](assets/testing/lighthome.png)
+#### Registration Page
+![Lighthouse](assets/testing/lightregistration.png)
+#### Login page
+![Lighthouse](assets/testing/lightlogin.png)
+#### About page
+![Lighthouse](assets/testing/lightabout.png)
+#### Matches page
+![Lighthouse](assets/testing/lightmatches.png)
+#### Chat page
+![Lighthouse](assets/testing/lightchat.png)
+#### Profile page
 ![Lighthouse](assets/testing/lighthouse-testing.png)
 
 ### Solved Bugs ![Killed Bugs](https://img.shields.io/badge/Killed%20Bugs-✔️-brightgreen?style=for-the-badge&logo=bugatti)
